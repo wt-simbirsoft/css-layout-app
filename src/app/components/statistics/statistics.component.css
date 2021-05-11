@@ -1,0 +1,65 @@
+:host {
+    height: inherit;
+    width: inherit;
+    padding: 22px 30px 38px;
+    position: relative;
+}
+
+h1 {
+    margin-bottom: 46px;
+}
+
+h4 {
+    /* TODO */
+}
+
+.card-container {
+    height: 48px;
+    width: 100%;
+
+    /* TODO  */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-container .card {
+    height: inherit;
+
+    /* TODO */
+}
+
+.card-container .card .card-icon {
+    height: inherit;
+    width: 48px;
+    margin-right: 20px;
+}
+
+.card-container .card:nth-child(1) > .card-icon {
+   background-image: url(/assets/images/stat-icon1.png);
+}
+
+.card-container .card:nth-child(2) > .card-icon {
+    background-image: url(/assets/images/stat-icon2.png);
+}
+
+.card-container .card:nth-child(3) > .card-icon {
+    background-image: url(/assets/images/stat-icon3.png);
+}
+
+.card-container .card:nth-child(4) > .card-icon {
+    background-image: url(/assets/images/stat-icon4.png);
+}
+
+.card-container .card .card-info {
+    height: inherit;
+
+    /* TODO */
+}
+
+.card-container .card .card-info .value {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #5E5873;
+}

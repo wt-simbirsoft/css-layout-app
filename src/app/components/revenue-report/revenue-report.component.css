@@ -1,0 +1,96 @@
+:host {
+    height: inherit;
+    width: inherit;
+    position: relative;
+    
+    /* TODO */
+}
+
+.chart-container {
+    padding: 29px 21px 25px;
+    width: calc(100% - 251px);
+    height: inherit;
+
+    /* TODO */
+}
+
+.chart-container .chart-info h4 {
+    display: inline;
+    margin-left: 39px;
+    position: relative;
+}
+
+.chart-container .chart-info h4::before {
+    content: "";
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+
+    /* TODO */
+}
+
+.chart-container .chart-info h4:nth-child(1)::before {
+    background-color: #FF9F43;
+}
+
+.chart-container .chart-info h4:nth-child(2)::before {
+    background-color: #7367F0;
+}
+
+.chart-container img {
+    flex-basis: 100%;
+}
+
+.separator {
+    display: block;
+    height: inherit;
+    width: 1px;
+    background-color: #EBE9F1;
+}
+
+.card {
+    height: inherit;
+    width: 250px;
+    padding-top: 27px;
+
+    /* TODO */
+}
+
+.card .select {
+    height: 30px;
+    width: 78px;
+    border: 1px solid #7367F0;
+    border-radius: 5px;
+    color: #7367F0;
+    margin-bottom: 40px;
+
+    /* TODO */
+}
+
+.card .select .arrow {
+    height: 14px;
+    width: 14px;
+    background-image: url(/assets/icons/arrow.png);
+}
+
+.card > span {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #5E5873;
+    margin-bottom: 4px;
+}
+
+.card h3 span {
+    font-weight: bold;
+}
+
+.card h3 {
+    margin-bottom: 27px;
+}
+
+.card button {
+    margin-top: 41px;
+    height: 37px;
+    width: 167px;
+}

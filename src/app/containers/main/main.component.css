@@ -1,0 +1,70 @@
+:host {
+    min-width: 1124px;
+    max-width: 1124px;
+    margin-top: 22px;
+    margin-bottom: 15px;
+
+    /* TODO */
+}
+
+:host > * {
+    border-radius: 6px;
+    background: #FFFFFF;
+    display: block;
+}
+
+/* statistics { grid-area: statistics; }
+      
+congratulations { grid-area: congratulation; }
+      
+earning { grid-area: earning; }
+      
+orders { grid-area: orders; }
+      
+profit { grid-area: profit; }
+      
+revenue-report { grid-area: revenue; }
+      
+company-stats { grid-area: company-stat; }
+      
+calendar { grid-area: calendar; } */
+
+congratulations {
+    height: 176px;
+    width: 356px;
+}
+
+statistics {
+    height: 176px;
+    width: 740px;
+}
+
+orders {
+    height: 180px;
+    width: 164px;
+}
+
+profit {
+    height: 180px;
+    width: 164px;
+}
+
+earning {
+    height: 160px;
+    width: 356px;
+}
+
+revenue-report {
+    height: 368px;
+    width: 742px;
+}
+
+company-stats {
+    height: 456px;
+    width: 742px;
+}
+
+calendar {
+    height: 455px;
+    width: 357px;
+}

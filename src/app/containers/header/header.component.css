@@ -1,0 +1,136 @@
+:host {
+    height: 62px;
+    min-width: 1124px;
+    max-width: 1124px;
+    margin-top: 21px;
+    padding: 0px 20px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.12);
+
+    /* TODO */
+}
+
+.navbar-container {
+    height: inherit; /* 62px */
+    
+    /* TODO */
+}
+
+.navbar-container .action-container {
+    width: 100%;
+
+    /* TODO */
+}
+
+.action {
+    width: 156px;
+}
+
+.profile {
+    min-width: 343px;
+}
+
+.profile .action-container .language-container {
+    position: relative;
+}
+
+.profile .action-container .language-container .flag {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -60%);
+}
+
+.profile .action-container .language-container .language {
+    line-height: 38px;
+    font-weight: bold;
+    margin-left: 38px;
+}
+
+.profile .action-container .icon {
+    height: 20px;
+    width: 20px;
+    position: relative;
+}
+
+.profile .action-container .icon .count {
+    height: 18px;
+    width: 18px;
+    line-height: 19px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    color: #FFFFFF; 
+}
+
+.profile .action-container .search {
+    background-image: url(/assets/icons/search.png);
+}
+
+.profile .action-container .cart {
+    background-image: url(/assets/icons/cart.png);
+}
+
+.profile .action-container .cart .count{
+    background-color: #7367F0;
+}
+
+.profile .action-container .notifications {
+    background-image: url(/assets/icons/notifications.png);
+}
+
+.profile .action-container .notifications .count {
+    background-color: #EA5455;
+}
+
+.profile .action-container .profile-container {
+    height: 38px;
+
+    /* TODO */
+}
+
+.profile .action-container .profile-container span {
+    line-height: 19px;
+    text-align: end;
+}
+
+.profile .action-container .profile-container .full-name {
+    color: #6E6B7B;
+}
+
+.profile .action-container .profile-container .access {
+    font-size: 12px;
+    color: #B9B9C3;
+}
+
+.profile .action-container .avatar-container {
+    position: relative;
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
+    background-color: rgba(115, 103, 240, .5);
+}
+
+.profile .action-container .avatar-container .avatar {
+    width: inherit;
+    height: inherit;
+    border-radius: 50%;
+}
+
+.profile .action-container .online::before {
+    content: "";
+    box-sizing: border-box;
+    height: 11px;
+    width: 11px;
+    border-width: 1.6px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 1px;
+    right: 0px;
+    background-color: #28C76F
+}

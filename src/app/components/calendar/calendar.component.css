@@ -1,0 +1,104 @@
+:host {
+    height: inherit;
+    width: inherit;
+}
+
+.card {
+    /* TODO */
+}
+
+.card .card-image {
+    height: 175px;
+    width: 100%;
+    background-image: url(/assets/images/calendar-event.png);
+}
+
+.card .card-body {
+    padding: 22px 22px 0px;
+}
+
+.card .card-body .card-title {
+    height: 50px;
+    width: 100%;
+
+    /* TODO */
+}
+
+
+.card .card-body .card-title .date {
+    /* TODO */
+}
+
+.card .card-body .card-title .date > span {
+    font-size: 21px;
+    line-height: 26px;
+}
+
+.card .card-body .card-title .separator {
+    height: 100%;
+    width: 1px;
+    background-color: #D8D6DE;
+}
+
+.card .card-body .card-title .title {
+    padding-right: 15px;
+
+    /* TODO */
+}
+
+.card .card-body .event {
+    margin: 22px 0px 26px;
+    height: 94px;
+    width: 100%;
+
+    /* TODO */
+}
+
+.card .card-body .event h3 {
+    line-height: 15px;
+}
+
+.card .card-body .event .icon {
+    height: 34px;
+    width: 34px;
+    border-radius: 5px;
+    margin-right: 14px;
+    background-color: rgba(115, 103, 240, 0.12);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card .card-body .event .event-date .icon {
+    background-image: url(/assets/icons/calendar-icon.png);
+}
+
+.card .card-body .event .event-location .icon {
+    background-image: url(/assets/icons/location-icon.png);
+}
+
+.card .card-body .event .event-date {
+    height: 34px;
+
+    /* TODO */
+}
+
+.card .card-body .event .event-location {
+    height: 34px;
+
+    /* TODO */
+}
+
+.card .users .avatars {
+    height: 40px;
+    width: 152px;
+    background-image: url(/assets/images/avatar-group.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* TODO */
+}
+
+.card .users .count {
+    text-align: center;
+    line-height: 50px;
+}
